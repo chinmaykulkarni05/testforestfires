@@ -35,7 +35,7 @@ Application URL: (Add your Elastic Beanstalk URL here)
 - step 9 : Click Create
 - Wait until environment status becomes Healthy
 
-- Part B: Create AWS CodePipelins
+## Part B: Create AWS CodePipelins
 - step 1 : Go to AWS Console
 - step 2 : Search for CodePipeline
 - step 3 : Click Create Pipeline
