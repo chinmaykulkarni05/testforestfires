@@ -8,18 +8,18 @@ Application URL: (Add your Elastic Beanstalk URL here)
 
 # ⚙️ Setup & Deployment Guide
 1️⃣ Local Development Setup
-step 1 : python -m venv environment (Create Folder & Create Virtual Environment)
-step 2 : environment\Scripts\activate  (Activate Virtual Environment)
-step 3 : pip install -r requirements.txt (Install dependencies)
-step 4 : python application.py  (run the application)
+- python -m venv environment (Create Folder & Create Virtual Environment)
+- environment\Scripts\activate  (Activate Virtual Environment)
+- pip install -r requirements.txt (Install dependencies)
+- python application.py  (run the application)
 
 2️⃣ Push Project to GitHub
-step 1 : git init
-step 2 : git add .
-step 3 : git commit -m "Initial commit - End-to-End ML Deployment"
-step 4 : git remote add origin https://github.com/your-username/WildfireIQ.git
-step 5 : git branch -M main
-step 6 : git push -u origin main
+- git init
+- git add .
+- git commit -m "Initial commit - End-to-End ML Deployment"
+- git remote add origin https://github.com/your-username/WildfireIQ.git
+- git branch -M main
+- git push -u origin main
 
 3️⃣ AWS Deployment Guide
 This project is deployed using: AWS Elastic Beanstalk, AWS CodePipeline, GitHub Webhooks
